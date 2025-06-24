@@ -1,0 +1,105 @@
+body
+{
+    background-color: #333;
+    color: white;
+}
+
+.navbar
+{
+    border-bottom: 3px skyblue solid;
+    opacity: 0.8;
+}
+
+#home i
+{
+    color: skyblue;
+    background-color: white;
+    padding: 0.3em;
+    border-radius: 0.3em;
+}
+
+#home p
+{
+    color: lightgray;
+}
+
+#home
+{
+    background: url('imgs/home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 700px;
+    background-position-y: -90px; 
+}
+
+#home .overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* home inner includes all the forms and other stuff */
+.home-inner
+{
+    /* PADDING only adds space on top instead of moving everything around */
+    padding-top: 8em;
+}
+
+#home .card
+{
+    opacity: 0.8;
+}
+
+#section-b
+{
+    background-color: white;
+    z-index: -5;
+}
+
+#section-b h1, p
+{
+    color: black;
+}
+
+#section-b i
+{
+    color: white;
+    background-color: black;
+    padding: 0.3em;
+    border-radius: 0.3em;
+}
+
+.section-b-inner
+{
+    padding: 0.5em;
+}
+
+#section-d i
+{
+    color: skyblue;
+    background-color: white;
+    padding: 0.3em;
+    border-radius: 0.3em;
+}
+
+
+#section-f i
+{
+    color: white;
+    background-color: black;
+    padding: 0.3em;
+    border-radius: 0.3em;
+}
+
+
+/* @media(max-width: 998px)
+{
+
+   
+
+} */
